@@ -8,18 +8,18 @@ described in the [`Local Settings`](#local-settings) section.
 Table of Contents
 -----------------
 
-* [🔧 Setup](#setup)
-* [💄 Customize](#customize)
-  * [🔀 Forks](#forks)
-  * [🌐 Local Settings](#local-settings)
-    * [🐚 `~/.bash.local`](#bashlocal)
-    * [🔁 `~/.gitconfig.local`](#gitconfiglocal)
+* [Setup](#setup)
+* [Customize](#customize)
+  * [Forks](#forks)
+  * [Local Settings](#local-settings)
+    * [`~/.bash.local`](#bashlocal)
+    * [`~/.gitconfig.local`](#gitconfiglocal)
     * [⌨️  `~/.vimrc.local`](#vimrclocal)
-* [↕️  Update](#update)
-* [📸 Screenshots](#screenshots)
-  * [🔁 `Git`](#git)
-  * [⌨️  `tmux` & `Vim`](#tmux--vim)
-* [📄 License](#license)
+* [Update](#update)
+* [Screenshots](#screenshots)
+  * [`Git`](#git)
+  * [`tmux` & `Vim`](#tmux--vim)
+* [License](#license)
 
 Setup
 -----
@@ -31,10 +31,10 @@ To set up the `dotfiles` run the appropriate snippet in the terminal:
 
 | OS | Snippet |
 |:---|:---|
-| `macOS` | `bash -c "$(curl -LsS https://raw.github.com/alrra/dotfiles/master/src/os/setup.sh)"` |
-| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/alrra/dotfiles/master/src/os/setup.sh)"` |
+| `macOS` | `bash -c "$(curl -LsS https://raw.github.com/dspetrich/dotfiles/master/src/os/setup.sh)"` |
+| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/dspetrich/dotfiles/master/src/os/setup.sh)"` |
 
-That's it! ✨
+That's it!
 
 The setup process will:
 
