@@ -1,4 +1,4 @@
-[Cătălin][repo]’s dotfiles [![Build Status][ci badge]][ci link]
+[DSPetrich][repo]’s dotfiles [![Build Status][ci badge]][ci link]
 ==========================
 
 These are the base dotfiles that I start with when I set up a new
@@ -14,7 +14,7 @@ Table of Contents
   * [Local Settings](#local-settings)
     * [`~/.bash.local`](#bashlocal)
     * [`~/.gitconfig.local`](#gitconfiglocal)
-    * [⌨️  `~/.vimrc.local`](#vimrclocal)
+    * [`~/.vimrc.local`](#vimrclocal)
 * [Update](#update)
 * [Screenshots](#screenshots)
   * [`Git`](#git)
@@ -109,7 +109,7 @@ such as the `Git` user credentials, e.g.:
 
 [user]
 
-    name = Cătălin Mariș
+    name = DS Petrich
     email = account@example.com
     signingKey = XXXXXXXX
 ```
