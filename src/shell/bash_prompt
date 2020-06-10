@@ -135,15 +135,16 @@ set_prompts() {
     PS1="\[\033]0;\W\007\]" # Terminal title (set to the
                             # current working directory)
 
-    PS1+="$reset$bold"
-    PS1+="$orange\u"        # Username
+    PS1+="$reset$white"
+    PS1+="┌─ "               # Structure
+    PS1+="$green\u"         # Username
     PS1+="$white@"
-    PS1+="$yellow\h"        # Host
+    PS1+="$green\h"         # Host
     PS1+="$white: "
-    PS1+="$green\w"         # Working directory
-    PS1+="\$(get_git_repository_details \"$white on $cyan\")"
-    PS1+="\n"
-    PS1+="\[$reset\]\[$white\]$ \[$reset\]"
+    PS1+="$cyan\w"        # Working directory
+    PS1+="\$(get_git_repository_details \"$white on $orange\")"
+    PS1+="\n"               # Next line
+    PS1+="\[$reset\]\[$white\]└─▶ $ \[$reset\]"
 
     export PS1
 
