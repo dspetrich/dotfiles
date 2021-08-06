@@ -9,17 +9,17 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 update
 upgrade
 
-./build-essentials.sh
+# ./build-essentials.sh
 
 ./git.sh
-./../nvm.sh
-./browsers.sh
-./compression_tools.sh
-./image_tools.sh
-./misc.sh
-./misc_tools.sh
-./../npm.sh
-./tmux.sh
+# ./../nvm.sh
+# ./browsers.sh
+# ./compression_tools.sh
+# ./image_tools.sh
+# ./misc.sh
+# ./misc_tools.sh
+# ./../npm.sh
+# ./tmux.sh
 ./../vim.sh
 
 ./cleanup.sh
