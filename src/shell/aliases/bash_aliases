@@ -24,6 +24,7 @@ alias q="exit"
 alias rm="rm -rf --"
 alias t="tmux"
 alias y="yarn"
+alias fd="fdfind"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -34,4 +35,10 @@ alias gl="git log"
 
 # Load OS specific aliases.
 
-. "aliases/$OS/bash_aliases"
+# . "aliases/ubuntu/bash_aliases"
+
+alias open="gio open"
+
+alias sbrc="source ~/.bashrc"
+# Mount MiniStorage
+#  alias mountministorage="sudo mount -t cifs //macmini.local/hdd /home/dsp/MiniStorage -o uid=dsp,gid=samba,credentials=/home/dsp/.smbcredentials,noexec"
